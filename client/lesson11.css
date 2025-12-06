@@ -1,0 +1,16 @@
+p {
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    border: none;
+}
+button {
+    padding: 10px;
+    background-color: rgb(70, 109, 253);
+    color:white;
+    width: 100px;
+    border: 1px solid rgb(81, 81, 81);
+}

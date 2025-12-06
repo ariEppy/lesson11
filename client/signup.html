@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="lesson11.css" />
+  </head>
+  <body>
+    <form>
+      <p>Username</p>
+      <input type="text" placeholder="Enter a username..." id="username" />
+      <p>Email Address</p>
+      <input type="text" placeholder="Enter your email address..." id="email" />
+      <p>Password</p>
+      <input type="text" placeholder="Enter your password..." id="password" />
+      <p>Confirm Password</p>
+      <input
+        type="text"
+        placeholder="Enter your password again..."
+        id="confirmPassword"
+      />
+      <div id="response"></div>
+      <br />
+      <button onclick="postDetails(event)">Sign Up</button>
+    </form>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
